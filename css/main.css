@@ -477,6 +477,12 @@ footer{
 /* Media */
 
 @media(max-width: 739px){
+  .header-top-container{
+    flex-direction: column;
+  }
+  .menu{
+    flex-direction: column;
+  }
   .container-area-atuacao{
     flex-direction: column;
     padding-left: 27px;
